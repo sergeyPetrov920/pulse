@@ -1,0 +1,13 @@
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+@import 'base/variables.scss';
+@import 'base/mixins.scss';
+
+.container {
+width: 950px;
+margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
